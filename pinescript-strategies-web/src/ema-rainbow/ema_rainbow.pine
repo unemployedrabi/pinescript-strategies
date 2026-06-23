@@ -1,0 +1,12 @@
+//@version=2
+study(title='EMA Rainbow', shorttitle='EMA Rainbow By Edw', overlay=false)
+plot(ema(close,20), title="EMA 20", style=line, linewidth=1, color = #ffcc00)
+plot(ema(close,25), title="EMA 25", style=line, linewidth=1, color = #ff9900)
+plot(ema(close,30), title="EMA 30", style=line, linewidth=1, color = #ff8c00)
+plot(ema(close,35), title="EMA 35", style=line, linewidth=1, color = #ff8000)
+plot(ema(close,40), title="EMA 40", style=line, linewidth=1, color = #ff5900)
+plot(ema(close,45), title="EMA 45", style=line, linewidth=1, color = #ff4c00)
+plot(ema(close,50), title="EMA 50", style=line, linewidth=1, color = #ff4000)
+plot(ema(close,55), title="EMA 55", style=line, linewidth=1, color = #ff2600)
+
+
